@@ -1,0 +1,27 @@
+[user]
+	email = kzlouge@proton.me
+	name = Atmos
+
+# catppuccin theme for delta
+[include]
+	path = /home/atmos/dotfiles/catppuccin.gitconfig
+# added by atmos with delta default settings
+# find in: https://dandavison.github.io/delta/get-started.html
+[core]
+    pager = delta
+
+[interactive]
+    diffFilter = delta --color-only
+
+[delta]
+    navigate = true
+    features = catppuccin-mocha
+    side-by-side = true
+
+[merge]
+    conflictstyle = diff3
+
+[diff]
+    colorMoved = default
+[init]
+	defaultBranch = main

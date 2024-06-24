@@ -1,0 +1,12 @@
+{
+  "themes": {
+    "catppuccin-atmos": {
+      "commandName": "bold, magenta",
+      "mainDescription": "",
+      "exampleDescription": "blueBright",
+      "exampleCode": "red",
+      "exampleToken": "yellow"
+    }
+  },
+  "theme": "catppuccin-atmos"
+}
